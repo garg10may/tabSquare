@@ -1,0 +1,176 @@
+[
+  {
+    "id": 0,
+    "timestamp": 1555512454240,
+    "status": "MALFUNCTIONING",
+    "operatingParams": {
+      "rotorSpeed": 242,
+      "slack": 7.27,
+      "rootThreshold": 4.42
+    },
+    "asset": {
+      "id": 2,
+      "alias": "Main Rotor Shaft"
+    },
+    "monthYear": "04-2019"
+  },
+  {
+    "id": 1,
+    "timestamp": 1553918336196,
+    "status": "MALFUNCTIONING",
+    "operatingParams": {
+      "rotorSpeed": 642,
+      "slack": 6.18,
+      "rootThreshold": 8.06
+    },
+    "asset": {
+      "id": 2,
+      "alias": "Main Rotor Shaft"
+    },
+    "monthYear": "03-2019"
+  },
+  {
+    "id": 2,
+    "timestamp": 1560207582311,
+    "status": "STOPPED",
+    "operatingParams": {
+      "rotorSpeed": 0,
+      "slack": 0,
+      "rootThreshold": 19.55
+    },
+    "asset": {
+      "id": 1,
+      "alias": "Axle Motor"
+    },
+    "parent": null,
+    "monthYear": "06-2019"
+  },
+  {
+    "id": 3,
+    "timestamp": 1547598771792,
+    "status": "MALFUNCTIONING",
+    "operatingParams": {
+      "rotorSpeed": 507,
+      "slack": 5.45,
+      "rootThreshold": 7.67
+    },
+    "asset": {
+      "id": 7,
+      "alias": "Counter Blades"
+    },
+    "monthYear": "01-2019"
+  },
+  {
+    "id": 4,
+    "timestamp": 1554240798496,
+    "status": "RUNNING",
+    "operatingParams": {
+      "rotorSpeed": 2967,
+      "slack": 37.32,
+      "rootThreshold": 0
+    },
+    "asset": {
+      "id": 2,
+      "alias": "Main Rotor Shaft"
+    },
+    "monthYear": "04-2019"
+  },
+  {
+    "id": 5,
+    "timestamp": 1552525258442,
+    "status": "MALFUNCTIONING",
+    "operatingParams": {
+      "rotorSpeed": 498,
+      "slack": 8,
+      "rootThreshold": 9.49
+    },
+    "asset": {
+      "id": 2,
+      "alias": "Main Rotor Shaft"
+    },
+    "monthYear": "03-2019"
+  },
+  {
+    "id": 6,
+    "timestamp": 1552070631752,
+    "status": "STOPPED",
+    "operatingParams": {
+      "rotorSpeed": 0,
+      "slack": 0,
+      "rootThreshold": 68.8
+    },
+    "asset": {
+      "id": 7,
+      "alias": "Counter Blades"
+    },
+    "monthYear": "03-2019"
+  },
+  {
+    "id": 7,
+    "timestamp": 1553776263672,
+    "status": "MALFUNCTIONING",
+    "operatingParams": {
+      "rotorSpeed": 209,
+      "slack": 1.74,
+      "rootThreshold": 5.41
+    },
+    "asset": {
+      "id": 6,
+      "alias": "Penstock Guage"
+    },
+    "monthYear": "03-2019"
+  },
+  {
+    "id": 8,
+    "timestamp": 1556931364850,
+    "status": "STOPPED",
+    "operatingParams": {
+      "rotorSpeed": 0,
+      "slack": 0,
+      "rootThreshold": 11.87
+    },
+    "asset": {
+      "id": 3,
+      "alias": "Secondary Rotor Shaft"
+    },
+    "parent": {
+      "id": 7,
+      "alias": "Counter Blades"
+    },
+    "monthYear": "05-2019"
+  },
+  {
+    "id": 9,
+    "timestamp": 1552799232246,
+    "status": "STOPPED",
+    "operatingParams": {
+      "rotorSpeed": 0,
+      "slack": 0,
+      "rootThreshold": 59.76
+    },
+    "asset": {
+      "id": 6,
+      "alias": "Penstock Guage"
+    },
+    "monthYear": "03-2019"
+  },
+  {
+    "id": 10,
+    "timestamp": 1554333987222,
+    "status": "STOPPED",
+    "operatingParams": {
+      "rotorSpeed": 0,
+      "slack": 0,
+      "rootThreshold": 29.31
+    },
+    "asset": {
+      "id": 0,
+      "alias": "Primary Rotor"
+    },
+    "parent": {
+      "id": 2,
+      "alias": "Main Rotor Shaft"
+    },
+    "monthYear": "04-2019"
+  }
+]
